@@ -9,9 +9,9 @@ public final class SomeOtherClass {
 
     public final Id id;
 
-    public final LongName name;
+    public final SpecificName name;
 
-    public SomeOtherClass(final Id id, final LongName name) {
+    public SomeOtherClass(final Id id, final SpecificName name) {
         Objects.requireNonNull(id);
         Objects.requireNonNull(name);
         this.id = id;
