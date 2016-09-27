@@ -13,7 +13,7 @@ public class SpecificName {
         Objects.requireNonNull(name);
         if (name.length() > 100) {
             throw new IllegalArgumentException("name too long");
-        }   
+        }
         this.name = name;
     }
 
